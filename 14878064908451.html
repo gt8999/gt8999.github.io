@@ -81,6 +81,8 @@
             <li><a href="workdoc.html">工作文档</a></li>
         
             <li><a href="diary.html">生活日记</a></li>
+        
+            <li><a href="usemyself.html">自己留用</a></li>
          
 
       </ul>
@@ -108,7 +110,9 @@
         <div class="read-more clearfix">
           <span class="date">2017/2/23</span>
 
+          <span>posted in&nbsp;</span> 
           
+              <span class="posted-in"><a href='usemyself.html'>自己留用</a></span>
            
          
           <span class="comments">
@@ -123,7 +127,11 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <p>第一种方法</p>
+      <p>第一步：在Finder中找到网站目录，单击选中文件夹，cmd+c。打开mac电脑终端，输入cd，然后cmd+v。</p>
+
+<p>第二步：在终端输入如下指令</p>
+
+<p>第一种方法</p>
 
 <pre><code>echo &quot;# gt8999.github.io&quot; &gt;&gt; README.md
 git init
@@ -135,8 +143,10 @@ git push -u origin master
 
 <p>第二种方法</p>
 
-<pre><code>git remote add origin https://github.com/gt8999/gt8999.github.io.git
-git push -u origin master 
+<pre><code>git add --ignore-removal .
+git commit -m &quot;cname&quot;
+git push -u origin master
+
 </code></pre>
 
 
@@ -220,6 +230,8 @@ git push -u origin master
             <a href="workdoc.html"><strong>工作文档</strong></a>
         
             <a href="diary.html"><strong>生活日记</strong></a>
+        
+            <a href="usemyself.html"><strong>自己留用</strong></a>
          
         </p>
 

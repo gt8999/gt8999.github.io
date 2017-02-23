@@ -4,7 +4,7 @@
   <title><![CDATA[一个大妈的博客]]></title>
   <link href="http://blog.gtilili.com/atom.xml" rel="self"/>
   <link href="http://blog.gtilili.com/"/>
-  <updated>2017-02-23T10:44:37+08:00</updated>
+  <updated>2017-02-23T11:25:12+08:00</updated>
   <id>http://blog.gtilili.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,37 +18,47 @@
     <updated>2017-02-23T09:58:45+08:00</updated>
     <id>http://blog.gtilili.com/14878151259617.html</id>
     <content type="html"><![CDATA[
-<p>科学技术馆东门<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0256.JPG" alt=""/></p>
+<p>科学技术馆东门</p>
 
-<p>四层展厅——神州飞船一号实物<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0268.JPG" alt=""/></p>
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0256.JPG" alt=""/></p>
+
+<p>四层展厅——神州飞船一号实物</p>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0268.JPG" alt=""/></p>
 
 <!--more-->
 
-<p>长征运载火箭模型<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0276.JPG" alt=""/></p>
+<p>长征运载火箭模型</p>
 
-<p>火箭发动机实物<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0278.JPG" alt=""/></p>
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0276.JPG" alt=""/></p>
 
-<p>工业4.0数字制造工厂<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0284.JPG" alt=""/></p>
+<p>火箭发动机实物</p>
 
-<p>美丽的光纤树<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0286.JPG" alt=""/></p>
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0278.JPG" alt=""/></p>
 
-<p>奔跑吧，兄弟！<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0288.JPG" alt=""/></p>
+<p>工业4.0数字制造工厂</p>
 
-<p>二层展厅的恐龙化石<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0297.JPG" alt=""/></p>
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0284.JPG" alt=""/></p>
 
-<p>手工打造的木塔<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0300.JPG" alt=""/></p>
+<p>美丽的光纤树</p>
 
-<p>古代的织布机器<br/>
-<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0299.JPG" alt=""/></p>
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0286.JPG" alt=""/></p>
+
+<p>奔跑吧，兄弟！</p>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0288.JPG" alt=""/></p>
+
+<p>二层展厅的恐龙化石</p>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0297.JPG" alt=""/></p>
+
+<p>手工打造的木塔</p>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0300.JPG" alt=""/></p>
+
+<p>古代的织布机器</p>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0299.JPG" alt=""/></p>
 
 ]]></content>
   </entry>
@@ -121,6 +131,10 @@
     <updated>2017-02-23T07:34:50+08:00</updated>
     <id>http://blog.gtilili.com/14878064908451.html</id>
     <content type="html"><![CDATA[
+<p>第一步：在Finder中找到网站目录，单击选中文件夹，cmd+c。打开mac电脑终端，输入cd，然后cmd+v。</p>
+
+<p>第二步：在终端输入如下指令</p>
+
 <p>第一种方法</p>
 
 <pre><code>echo &quot;# gt8999.github.io&quot; &gt;&gt; README.md
@@ -133,8 +147,10 @@ git push -u origin master
 
 <p>第二种方法</p>
 
-<pre><code>git remote add origin https://github.com/gt8999/gt8999.github.io.git
-git push -u origin master 
+<pre><code>git add --ignore-removal .
+git commit -m &quot;cname&quot;
+git push -u origin master
+
 </code></pre>
 
 ]]></content>
