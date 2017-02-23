@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[岁月如歌]]></title>
+  <title><![CDATA[一个大妈的博客]]></title>
   <link href="http://blog.gtilili.com/atom.xml" rel="self"/>
   <link href="http://blog.gtilili.com/"/>
-  <updated>2017-02-23T09:05:02+08:00</updated>
+  <updated>2017-02-23T09:59:24+08:00</updated>
   <id>http://blog.gtilili.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,12 +13,104 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
-    <title type="html"><![CDATA[qqq]]></title>
-    <link href="http://blog.gtilili.com/14878108225088.html"/>
-    <updated>2017-02-23T08:47:02+08:00</updated>
-    <id>http://blog.gtilili.com/14878108225088.html</id>
+    <title type="html"><![CDATA[中国科学技术馆一日游]]></title>
+    <link href="http://blog.gtilili.com/14878151259617.html"/>
+    <updated>2017-02-23T09:58:45+08:00</updated>
+    <id>http://blog.gtilili.com/14878151259617.html</id>
     <content type="html"><![CDATA[
-<p>qqq</p>
+<p>科学技术馆东门<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0256.JPG" alt=""/></p>
+
+<p>四层展厅——神州飞船一号实物<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0268.JPG" alt=""/></p>
+
+<!--more-->
+
+<p>长征运载火箭模型<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0276.JPG" alt=""/></p>
+
+<p>火箭发动机实物<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0278.JPG" alt=""/></p>
+
+<p>工业4.0数字制造工厂<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0284.JPG" alt=""/></p>
+
+<p>美丽的光纤树<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0286.JPG" alt=""/></p>
+
+<p>奔跑吧，兄弟！<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0288.JPG" alt=""/></p>
+
+<p>二层展厅的恐龙化石<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0297.JPG" alt=""/></p>
+
+<p>手工打造的木塔<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0300.JPG" alt=""/></p>
+
+<p>古代的织布机器<br/>
+<img src="http://7xlwyk.com1.z0.glb.clouddn.com/IMG_0299.JPG" alt=""/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[S7-1200PLC教材知识点汇总]]></title>
+    <link href="http://blog.gtilili.com/14878148547445.html"/>
+    <updated>2017-02-23T09:54:14+08:00</updated>
+    <id>http://blog.gtilili.com/14878148547445.html</id>
+    <content type="html"><![CDATA[
+<table>
+<thead>
+<tr>
+<th>S7-1200PLC概述</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>S7-1200PLC的硬件</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TIA博途软件的使用</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>S7-1200PLC的编程指令</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[海缸新入蓝吊一条]]></title>
+    <link href="http://blog.gtilili.com/14878137214088.html"/>
+    <updated>2017-02-23T09:35:21+08:00</updated>
+    <id>http://blog.gtilili.com/14878137214088.html</id>
+    <content type="html"><![CDATA[
+<p>今日小海缸新入s号蓝吊一条，照了两张照片留作纪念</p>
+
+<blockquote>
+<p>黄尾副刺尾鱼（学名：Paracanthurus hepatus）体侧扁，口小。鱼体呈鲜艳的宝蓝色，并有明显调色盘状黑带；背鳍与臀鳍皆为宝蓝镶黑色宽边；尾柄与尾鳍皆为鲜黄色，尾鳍上下叶具黑边，此黑边和鱼体黑色区域相连，使后方隔离形成三角形的黄色区域，尾柄棘亦在此区内。尾柄两侧各具一根硬棘，尾棘鞘不明显。头部上半部散布小黑点，有时不太明显。鱼体越大体色越淡。<br/>
+该鱼主要分布于印太海域南中国海、印度尼西亚、马尔代夫、毛里求斯及南太平洋所罗门群岛等多地，且产量很大，为分布地区的习见鱼类。多活动于珊瑚礁区，觅食有机物碎屑等，会藏到礁石中躲避敌害。为一著名观赏鱼类。</p>
+</blockquote>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/%E8%93%9D%E5%90%8A%E5%92%8C%E5%B0%8F%E4%B8%91.JPG" alt=""/></p>
+
+<p><img src="http://7xlwyk.com1.z0.glb.clouddn.com/%E8%93%9D%E5%90%8A.JPG" alt=""/></p>
 
 ]]></content>
   </entry>
@@ -33,7 +125,7 @@
 
 <pre><code>echo &quot;# gt8999.github.io&quot; &gt;&gt; README.md
 git init
-git add README.md
+git add .
 git commit -m &quot;first commit&quot;
 git remote add origin https://github.com/gt8999/gt8999.github.io.git
 git push -u origin master
