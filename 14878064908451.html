@@ -141,6 +141,15 @@ git remote add origin https://github.com/gt8999/gt8999.github.io.git
 git push -u origin master
 </code></pre>
 
+<p>绑定域名指令：</p>
+
+<pre><code>echo &#39;www.gtilili.com&#39; &gt;&gt; CNAME
+git add --ignore-removal .
+git commit -m &quot;cname&quot;
+git push -u origin master
+
+</code></pre>
+
 <p>第二种方法</p>
 
 <pre><code>git add --ignore-removal .
