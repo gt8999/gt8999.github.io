@@ -8,17 +8,23 @@
   欢迎使用 MWeb - 一个大妈的博客
   
   </title>
- <meta name="description" content="专注电气技术、plc、单片机、工业机器人、工业4.0技术">
- <link href="atom.xml" rel="alternate" title="一个大妈的博客" type="application/atom+xml">
+  
+  
+  <link href="atom.xml" rel="alternate" title="一个大妈的博客" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
     <link rel="stylesheet" href="asset/css/docs.css" />
-
     <script src="asset/js/vendor/modernizr.js"></script>
     <script src="asset/js/vendor/jquery.js"></script>
-    <script src="asset/highlightjs/highlight.pack.js"></script>
-    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <script>hljs.initHighlightingOnLoad();</script>
-    
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:blog.gtilili.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
   </head>
   <body class="antialiased hide-extras">
     
@@ -28,11 +34,32 @@
 
 <nav class="top-bar docs-bar hide-for-small" data-topbar>
 
-<div id="header">
-    <h1><a href="index.html">一个大妈的博客</a></h1>
-</div>
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        
+        <li id=""><a target="self" href="index.html">Home</a></li>
+        
+        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+        
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+</form>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
 
 </nav>
+
         <nav class="tab-bar show-for-small">
   <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
     <span> &nbsp; 一个大妈的博客</span>
@@ -41,106 +68,68 @@
 
 <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
-      <li><a href="index.html">Home</a></li>
-      
-        <li class="divider"></li>
-        <li><label>PLC技术</label></li>
+       
+       <li><a href="index.html">HOME</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">ABOUT</a></li>
 
-          
-            <li><a title="S7-1200PLC教材知识点汇总" href="14878148547445.html">S7-1200PLC教材知识点汇总</a></li>
-          
+    <li><label>Categories</label></li>
 
-      
-        <li class="divider"></li>
-        <li><label>工作文档</label></li>
+        
+            <li><a href="plc.html">PLC技术</a></li>
+        
+            <li><a href="workdoc.html">工作文档</a></li>
+        
+            <li><a href="diary.html">生活日记</a></li>
+        
+            <li><a href="robot.html">工业机器人</a></li>
+        
+            <li><a href="usemyself.html">自己留用</a></li>
+         
 
-          
-            <li><a title="现代电气控制技术分中心视频宣传解说词" href="14878277166619.html">现代电气控制技术分中心视频宣传解说词</a></li>
-          
-            <li><a title="工业机器人实训室墙上文化建设方案" href="14877794285159.html">工业机器人实训室墙上文化建设方案</a></li>
-          
-
-      
-        <li class="divider"></li>
-        <li><label>生活日记</label></li>
-
-          
-            <li><a title="中国科学技术馆一日游" href="14878151259617.html">中国科学技术馆一日游</a></li>
-          
-            <li><a title="海缸新入蓝吊一条" href="14878137214088.html">海缸新入蓝吊一条</a></li>
-          
-
-      
-        <li class="divider"></li>
-        <li><label>自己留用</label></li>
-
-          
-            <li><a title="网站更新发布到github的命令" href="14878064908451.html">网站更新发布到github的命令</a></li>
-          
-            <li><a title="Markdown 语法和 MWeb 写作使用说明" href="14877789972081.html">Markdown 语法和 MWeb 写作使用说明</a></li>
-          
-            <li><a title="欢迎使用 MWeb" href="14877789972082.html">欢迎使用 MWeb</a></li>
-          
-
-      
       </ul>
     </aside>
 
 <a class="exit-off-canvas" href="#"></a>
 
+
         <section id="main-content" role="main" class="scroll-container">
+        
+       
 
-          <div class="row">
-            <div class="large-3 medium-3 columns">
-              <div class="hide-for-small">
-                <div class="sidebar">
-                <nav>
-                  <ul id="side-nav" class="side-nav">
+ <script type="text/javascript">
+  $(function(){
+    $('#menu_item_index').addClass('is_active');
+  });
+</script>
+<div class="row">
+  <div class="large-8 medium-8 columns">
+      <div class="markdown-body article-wrap">
+       <div class="article">
+          
+          <h1>欢迎使用 MWeb</h1>
+     
+        <div class="read-more clearfix">
+          <span class="date">2017/2/22</span>
 
-                    
-                      <li class="side-title"><span>PLC技术</span></li>
-                        
-                          <li><a title="S7-1200PLC教材知识点汇总" href="14878148547445.html">S7-1200PLC教材知识点汇总</a></li>
-                        
+          <span>posted in&nbsp;</span> 
+          
+              <span class="posted-in"><a href='usemyself.html'>自己留用</a></span>
+           
+         
+          <span class="comments">
+            
 
-                    
-                      <li class="side-title"><span>工作文档</span></li>
-                        
-                          <li><a title="现代电气控制技术分中心视频宣传解说词" href="14878277166619.html">现代电气控制技术分中心视频宣传解说词</a></li>
-                        
-                          <li><a title="工业机器人实训室墙上文化建设方案" href="14877794285159.html">工业机器人实训室墙上文化建设方案</a></li>
-                        
+            
+              &nbsp;<a  class="ds-thread-count" data-thread-key="14877789972082.html" data-count-type="comments" href="14877789972082.html#ds-thread"></a>
+            
+          </span>
 
-                    
-                      <li class="side-title"><span>生活日记</span></li>
-                        
-                          <li><a title="中国科学技术馆一日游" href="14878151259617.html">中国科学技术馆一日游</a></li>
-                        
-                          <li><a title="海缸新入蓝吊一条" href="14878137214088.html">海缸新入蓝吊一条</a></li>
-                        
+        </div>
+      </div><!-- article -->
 
-                    
-                      <li class="side-title"><span>自己留用</span></li>
-                        
-                          <li><a title="网站更新发布到github的命令" href="14878064908451.html">网站更新发布到github的命令</a></li>
-                        
-                          <li><a title="Markdown 语法和 MWeb 写作使用说明" href="14877789972081.html">Markdown 语法和 MWeb 写作使用说明</a></li>
-                        
-                          <li><a title="欢迎使用 MWeb" href="14877789972082.html">欢迎使用 MWeb</a></li>
-                        
-
-                    
-                  </ul>
-                </nav>
-                </div>
-              </div>
-            </div>
-            <div class="large-9 medium-9 columns">
-
- <div class="markdown-body">
-<h1>欢迎使用 MWeb</h1>
-
-<p>首先介绍一下 MWeb 是什么，MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件。MWeb 使用的是 Github Flavored Markdown 语法，在使用 MWeb 前，建议你一定要去 <a href="http://zh.mweb.im/">MWeb 官网首页</a> 看一下介绍视频，MWeb 官网也做了比较详细的帮助，建议你也看一下大概内容，帮助的网址为：<a href="http://zh.mweb.im/help.html">http://zh.mweb.im/help.html</a>。</p>
+      <div class="article-content">
+      <p>首先介绍一下 MWeb 是什么，MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件。MWeb 使用的是 Github Flavored Markdown 语法，在使用 MWeb 前，建议你一定要去 <a href="http://zh.mweb.im/">MWeb 官网首页</a> 看一下介绍视频，MWeb 官网也做了比较详细的帮助，建议你也看一下大概内容，帮助的网址为：<a href="http://zh.mweb.im/help.html">http://zh.mweb.im/help.html</a>。</p>
 
 <h2 id="toc_0">需要您重点注意的</h2>
 
@@ -157,73 +146,196 @@
 </ol>
 
 
-</div>
+    
 
-<br /><br />
-<hr />
+      </div>
 
-<div class="row clearfix">
-  <div class="large-6 columns">
-	<div class="text-left" style="padding:15px 0px;">
-		
-	        <a href="14877789972081.html"  title="Previous Post: Markdown 语法和 MWeb 写作使用说明">&laquo; Markdown 语法和 MWeb 写作使用说明</a>
-	    
-	</div>
-  </div>
-  <div class="large-6 columns">
-	<div class="text-right" style="padding:15px 0px;">
-		
-	</div>
-  </div>
-</div>
+      <div class="row">
+        <div class="large-6 columns">
+        <p class="text-left" style="padding:15px 0px;">
+      
+          <a href="14877789972081.html" 
+          title="Previous Post: Markdown 语法和 MWeb 写作使用说明">&laquo; Markdown 语法和 MWeb 写作使用说明</a>
+      
+        </p>
+        </div>
+        <div class="large-6 columns">
+      <p class="text-right" style="padding:15px 0px;">
+      
+      </p>
+        </div>
+      </div>
+      <div class="comments-wrap">
+        <div class="share-comments">
+          
 
-<div class="row">
-<div style="padding:0px 0.93em;" class="share-comments">
+          
 
-</div>
-</div>
-<script type="text/javascript">
-	$(function(){
-		var currentURL = '14877789972082.html';
-		$('#side-nav a').each(function(){
-			if($(this).attr('href') == currentURL){
-				$(this).parent().addClass('active');
-			}
-		});
-	});
-</script>  
-</div></div>
+          
+              <div class="ds-thread" data-thread-key="14877789972082.html" data-url="http://blog.gtilili.com/14877789972082.html" data-title="欢迎使用 MWeb"></div>
+          
+        </div>
+      </div>
+    </div><!-- article-wrap -->
+  </div><!-- large 8 -->
 
 
-<div class="page-bottom">
+
+
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <div class="site-a-logo"><img src="http://7xlwyk.com1.z0.glb.clouddn.com/avatar.png" /></div>
+            
+                <h1>一个大妈的博客</h1>
+                <div class="site-des">专注电气技术、plc、单片机、工业机器人、工业4.0技术</div>
+                <div class="social">
+
+
+
+<a target="_blank" class="linkedin" href="http://v2.ta.qq.com/summary/index#!0-0" title="LinkedIn">LinkedIn</a>
+
+<a target="_blank" class="quora" href="http://www.qiniu.com" title="Quora">Quora</a>
+
+
+
+
+<a target="_blank" class="email" href="mailto:guotaodage@qq.com" title="Email">Email</a>
+  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
+                
+              	 </div>
+          	</div>
+
+             
+
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="plc.html"><strong>PLC技术</strong></a>
+        
+            <a href="workdoc.html"><strong>工作文档</strong></a>
+        
+            <a href="diary.html"><strong>生活日记</strong></a>
+        
+            <a href="robot.html"><strong>工业机器人</strong></a>
+        
+            <a href="usemyself.html"><strong>自己留用</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="14880312488070.html">工业机器人实训室注意事项</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878277166619.html">现代电气控制技术分中心视频宣传解说词</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878151259617.html">中国科学技术馆一日游</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878148547445.html">S7-1200PLC教材知识点汇总</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878137214088.html">海缸新入蓝吊一条</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
   <div class="row">
-  <hr />
-  <div class="small-9 columns">
-  <p class="copyright">Copyright &copy; 2015
+   <p class="copyright">Copyright &copy; 2015
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
 Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
-  </div>
-  <div class="small-3 columns">
-  <p class="copyright text-right"><a href="#header">TOP</a></p>
-  </div>
-   
   </div>
 </div>
 
         </section>
       </div>
     </div>
+
+  
+
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:'gt8999'};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
     
-    
+
     <script src="asset/js/foundation.min.js"></script>
-    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
     <script>
       $(document).foundation();
-
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
      
     </script>
+
     <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=60794227" charset="UTF-8"></script>
+
   </body>
 </html>

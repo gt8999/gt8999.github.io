@@ -8,17 +8,23 @@
   一个大妈的博客
   
   </title>
- <meta name="description" content="专注电气技术、plc、单片机、工业机器人、工业4.0技术">
- <link href="atom.xml" rel="alternate" title="一个大妈的博客" type="application/atom+xml">
+  
+  
+  <link href="atom.xml" rel="alternate" title="一个大妈的博客" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
     <link rel="stylesheet" href="asset/css/docs.css" />
-
     <script src="asset/js/vendor/modernizr.js"></script>
     <script src="asset/js/vendor/jquery.js"></script>
-    <script src="asset/highlightjs/highlight.pack.js"></script>
-    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <script>hljs.initHighlightingOnLoad();</script>
-    
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:blog.gtilili.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
   </head>
   <body class="antialiased hide-extras">
     
@@ -28,11 +34,32 @@
 
 <nav class="top-bar docs-bar hide-for-small" data-topbar>
 
-<div id="header">
-    <h1><a href="index.html">一个大妈的博客</a></h1>
-</div>
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        
+        <li id=""><a target="self" href="index.html">Home</a></li>
+        
+        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+        
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+</form>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
 
 </nav>
+
         <nav class="tab-bar show-for-small">
   <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
     <span> &nbsp; 一个大妈的博客</span>
@@ -41,110 +68,105 @@
 
 <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
-      <li><a href="index.html">Home</a></li>
-      
-        <li class="divider"></li>
-        <li><label>PLC技术</label></li>
+       
+       <li><a href="index.html">HOME</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">ABOUT</a></li>
 
-          
-            <li><a title="S7-1200PLC教材知识点汇总" href="14878148547445.html">S7-1200PLC教材知识点汇总</a></li>
-          
+    <li><label>Categories</label></li>
 
-      
-        <li class="divider"></li>
-        <li><label>工作文档</label></li>
+        
+            <li><a href="plc.html">PLC技术</a></li>
+        
+            <li><a href="workdoc.html">工作文档</a></li>
+        
+            <li><a href="diary.html">生活日记</a></li>
+        
+            <li><a href="robot.html">工业机器人</a></li>
+        
+            <li><a href="usemyself.html">自己留用</a></li>
+         
 
-          
-            <li><a title="现代电气控制技术分中心视频宣传解说词" href="14878277166619.html">现代电气控制技术分中心视频宣传解说词</a></li>
-          
-            <li><a title="工业机器人实训室墙上文化建设方案" href="14877794285159.html">工业机器人实训室墙上文化建设方案</a></li>
-          
-
-      
-        <li class="divider"></li>
-        <li><label>生活日记</label></li>
-
-          
-            <li><a title="中国科学技术馆一日游" href="14878151259617.html">中国科学技术馆一日游</a></li>
-          
-            <li><a title="海缸新入蓝吊一条" href="14878137214088.html">海缸新入蓝吊一条</a></li>
-          
-
-      
-        <li class="divider"></li>
-        <li><label>自己留用</label></li>
-
-          
-            <li><a title="网站更新发布到github的命令" href="14878064908451.html">网站更新发布到github的命令</a></li>
-          
-            <li><a title="Markdown 语法和 MWeb 写作使用说明" href="14877789972081.html">Markdown 语法和 MWeb 写作使用说明</a></li>
-          
-            <li><a title="欢迎使用 MWeb" href="14877789972082.html">欢迎使用 MWeb</a></li>
-          
-
-      
       </ul>
     </aside>
 
 <a class="exit-off-canvas" href="#"></a>
 
+
         <section id="main-content" role="main" class="scroll-container">
+        
+       
 
-          <div class="row">
-            <div class="large-3 medium-3 columns">
-              <div class="hide-for-small">
-                <div class="sidebar">
-                <nav>
-                  <ul id="side-nav" class="side-nav">
+ <script type="text/javascript">
+	$(function(){
+		$('#menu_item_index').addClass('is_active');
+	});
+</script>
+<div class="row">
+	<div class="large-8 medium-8 columns">
+		<div class="markdown-body home-categories">
+		
+			<div class="article">
+                <a class="clearlink" href="14877794285159.html">
+                
+                  <h1>工业机器人实训室墙上文化建设方案</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<h2 id="toc_0">一、南边墙面立柱上的展牌</h2>
 
-                    
-                      <li class="side-title"><span>PLC技术</span></li>
-                        
-                          <li><a title="S7-1200PLC教材知识点汇总" href="14878148547445.html">S7-1200PLC教材知识点汇总</a></li>
-                        
+<p>尺寸：高75cm，宽60cm （我们教室柱子的实际宽度是65cm）<br/>
+材质：双面透明亚克力，厚度10mm<br/>
+内容要求：在图片上添加文字，描述工业机器人的典型工作场景，并请天煌设计人员进行美化。</p>
 
-                    
-                      <li class="side-title"><span>工作文档</span></li>
-                        
-                          <li><a title="现代电气控制技术分中心视频宣传解说词" href="14878277166619.html">现代电气控制技术分中心视频宣传解说词</a></li>
-                        
-                          <li><a title="工业机器人实训室墙上文化建设方案" href="14877794285159.html">工业机器人实训室墙上文化建设方案</a></li>
-                        
+<h2 id="toc_1">二、实训室东西墙上实训室操作注意事项、实训室管理制度、7s管理要求展牌</h2>
 
-                    
-                      <li class="side-title"><span>生活日记</span></li>
-                        
-                          <li><a title="中国科学技术馆一日游" href="14878151259617.html">中国科学技术馆一日游</a></li>
-                        
-                          <li><a title="海缸新入蓝吊一条" href="14878137214088.html">海缸新入蓝吊一条</a></li>
-                        
+<p>材质：双面透明亚克力，厚度10mm<br/>
+尺寸：高110cm，宽75cm<br/>
+一体化教学7s管理介绍：数量2块（东西墙各一块）<br/>
+一体化教学工作室管理制度：数量2块（东西墙各一块）<br/>
+工业机器人实训室注意事项：数量2块（东西墙各一块）</p>
 
-                    
-                      <li class="side-title"><span>自己留用</span></li>
-                        
-                          <li><a title="网站更新发布到github的命令" href="14878064908451.html">网站更新发布到github的命令</a></li>
-                        
-                          <li><a title="Markdown 语法和 MWeb 写作使用说明" href="14877789972081.html">Markdown 语法和 MWeb 写作使用说明</a></li>
-                        
-                          <li><a title="欢迎使用 MWeb" href="14877789972082.html">欢迎使用 MWeb</a></li>
-                        
+<h2 id="toc_2">三、实训室东墙黑板上蓝色亚克力文字</h2>
 
-                    
-                  </ul>
-                </nav>
+<p>文字内容：工业机器人技术培训中心<br/>
+要求：蓝色、单个字的尺寸25*25cm、楷体字</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2017/2/23</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='workdoc.html'>工作文档</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                      
+                        &nbsp;<a  class="ds-thread-count" data-thread-key="14877794285159.html" data-count-type="comments" href="14877794285159.html#ds-thread"></a>
+                       
+                  </span>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="large-9 medium-9 columns">
-
- 
-
-
-	
-		<div class="markdown-body">
-		<h1>Markdown 语法和 MWeb 写作使用说明</h1>
-
-		<h2 id="toc_0">Markdown 的设计哲学</h2>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="14877789972081.html">
+                
+                  <h1>Markdown 语法和 MWeb 写作使用说明</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<h2 id="toc_0">Markdown 的设计哲学</h2>
 
 <blockquote>
 <p>Markdown 的目標是實現「易讀易寫」。<br/>
@@ -152,510 +174,253 @@
 Markdown 的語法有個主要的目的：用來作為一種網路內容的<em>寫作</em>用語言。</p>
 </blockquote>
 
-<span id="more"></span><!-- more -->
 
-<h2 id="toc_1">本文约定</h2>
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                   <a href="14877789972081.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2017/2/22</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='usemyself.html'>自己留用</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
-<p>如果有写 <code>效果如下：</code>， 在 MWeb 编辑状态下只有用 <code>CMD + 4</code> 或 <code>CMD + R</code> 预览才可以看效果。</p>
+                      
+                        &nbsp;<a  class="ds-thread-count" data-thread-key="14877789972081.html" data-count-type="comments" href="14877789972081.html#ds-thread"></a>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="14877789972082.html">
+                
+                  <h1>欢迎使用 MWeb</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>首先介绍一下 MWeb 是什么，MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件。MWeb 使用的是 Github Flavored Markdown 语法，在使用 MWeb 前，建议你一定要去 <a href="http://zh.mweb.im/">MWeb 官网首页</a> 看一下介绍视频，MWeb 官网也做了比较详细的帮助，建议你也看一下大概内容，帮助的网址为：<a href="http://zh.mweb.im/help.html">http://zh.mweb.im/help.html</a>。</p>
 
-<h2 id="toc_2">标题</h2>
+<h2 id="toc_0">需要您重点注意的</h2>
 
-<p>Markdown 语法：</p>
+<p>MWeb 是有<strong>两种模式</strong>的：外部模式和文档库模式。MWeb 为了满足所有 Markdown 使用需求，设计了两种模式！外部模式用于打开和编辑所有本地 Markdown 文档。另外为了方便用 Markdown 记笔记，MWeb 设计了文档库模式，文档库中的文档也支持一键生成静态博客，以便于分享。关于两个模式的情况，还是建议您去看一下官网的视频和帮助。</p>
 
-<pre><code># 第一级标题 `&lt;h1&gt;` 
-## 第二级标题 `&lt;h2&gt;` 
-###### 第六级标题 `&lt;h6&gt;` 
-</code></pre>
+<h2 id="toc_1">帮助我们改进 MWeb</h2>
 
-<p>效果如下：</p>
-
-<h1 id="toc_3">第一级标题 <code>&lt;h1&gt;</code></h1>
-
-<h2 id="toc_4">第二级标题 <code>&lt;h2&gt;</code></h2>
-
-<h6 id="toc_5">第六级标题 <code>&lt;h6&gt;</code></h6>
-
-<h2 id="toc_6">强调</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>*这些文字会生成`&lt;em&gt;`*
-_这些文字会生成`&lt;u&gt;`_
-
-**这些文字会生成`&lt;strong&gt;`**
-__这些文字会生成`&lt;strong&gt;`__
-</code></pre>
-
-<p>在 MWeb 中的快捷键为： <code>CMD + U</code>、<code>CMD + I</code>、<code>CMD + B</code><br/>
-效果如下：</p>
-
-<p><em>这些文字会生成<code>&lt;em&gt;</code></em><br/>
-<u>这些文字会生成<code>&lt;u&gt;</code></u></p>
-
-<p><strong>这些文字会生成<code>&lt;strong&gt;</code></strong><br/>
-<strong>这些文字会生成<code>&lt;strong&gt;</code></strong></p>
-
-<h2 id="toc_7">换行</h2>
-
-<p>四个及以上空格加回车。<br/>
-如果不想打这么多空格，只要回车就为换行，请勾选：<code>Preferences</code> - <code>Themes</code> - <code>Translate newlines to &lt;br&gt; tags</code></p>
-
-<h2 id="toc_8">列表</h2>
-
-<h3 id="toc_9">无序列表</h3>
-
-<p>Markdown 语法：</p>
-
-<pre><code>* 项目一 无序列表 `* + 空格键`
-* 项目二
-* 项目二的子项目一 无序列表 `TAB + * + 空格键`
-* 项目二的子项目二
-</code></pre>
-
-<p>在 MWeb 中的快捷键为： <code>Option + U</code><br/>
-效果如下：</p>
-
-<ul>
-<li>项目一 无序列表 <code>* + 空格键</code></li>
-<li>项目二</li>
-<li>项目二的子项目一 无序列表 <code>TAB + * + 空格键</code></li>
-<li>项目二的子项目二</li>
-</ul>
-
-<h3 id="toc_10">有序列表</h3>
-
-<p>Markdown 语法：</p>
-
-<pre><code>1. 项目一 有序列表 `数字 + . + 空格键`
-2. 项目二 
-3. 项目三
-1. 项目三的子项目一 有序列表 `TAB + 数字 + . + 空格键`
-2. 项目三的子项目二
-</code></pre>
-
-<p>效果如下：</p>
+<p>如果你喜欢 MWeb，想让它变得更好，你可以：</p>
 
 <ol>
-<li>项目一 有序列表 <code>数字 + . + 空格键</code></li>
-<li>项目二 </li>
-<li>项目三</li>
-<li>项目三的子项目一 有序列表 <code>TAB + 数字 + . + 空格键</code></li>
-<li>项目三的子项目二</li>
+<li>推荐 MWeb，让更多的人知道。</li>
+<li>给我们发反馈和建议：<a href="mailto:coderforart+233@gmail.com">coderforart+233@gmail.com</a></li>
+<li>在 Mac App Store 上评价 （如果是在 MAS 上购买的话）。</li>
 </ol>
 
-<h3 id="toc_11">任务列表（Task lists）</h3>
-
-<p>Markdown 语法：</p>
-
-<pre><code>- [ ] 任务一 未做任务 `- + 空格 + [ ]`
-- [x] 任务二 已做任务 `- + 空格 + [x]`
-</code></pre>
-
-<p>效果如下：</p>
-
-<ul>
-<li class="task-list-item"><input disabled="disabled" type="checkbox" /> 任务一 未做任务 <code>- + 空格 + [ ]</code>
-</li>
-<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> 任务二 已做任务 <code>- + 空格 + [x]</code>
-</li>
-</ul>
-
-<h2 id="toc_12">图片</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif)
-格式: ![Alt Text](url)
-</code></pre>
-
-<p><code>Control + Shift + I</code> 可插入Markdown语法。<br/>
-如果是 MWeb 的文档库中的文档，还可以用拖放图片、<code>CMD + V</code> 粘贴、<code>CMD + Option + I</code> 导入这三种方式来增加图片。<br/>
-效果如下：</p>
-
-<p><img src="http://zh.mweb.im/asset/img/set-up-git.gif" alt="GitHub set up"/></p>
-
-<p>MWeb 引入的特别的语法来设置图片宽度，方法是在图片描述后加 <code>-w + 图片宽度</code> 即可，比如说要设置上面的图片的宽度为 140，语法如下：</p>
-
-<p><img src="http://zh.mweb.im/asset/img/set-up-git.gif" alt="GitHub set up" style="width:140px;"/></p>
-
-<h2 id="toc_13">链接</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>email &lt;example@example.com&gt;
-[GitHub](http://github.com)
-自动生成连接  &lt;http://www.github.com/&gt;
-</code></pre>
-
-<p><code>Control + Shift + L</code> 可插入Markdown语法。<br/>
-如果是 MWeb 的文档库中的文档，拖放或<code>CMD + Option + I</code> 导入非图片时，会生成连接。<br/>
-效果如下：</p>
-
-<p>Email 连接： <a href="mailto:example@example.com">example@example.com</a><br/>
-<a href="http://github.com">连接标题Github网站</a><br/>
-自动生成连接像： <a href="http://www.github.com/">http://www.github.com/</a> 这样</p>
-
-<h2 id="toc_14">区块引用</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>某某说:
-&gt; 第一行引用
-&gt; 第二行费用文字
-</code></pre>
-
-<p><code>CMD + Shift + B</code> 可插入Markdown语法。<br/>
-效果如下：</p>
-
-<p>某某说:</p>
-
-<blockquote>
-<p>第一行引用<br/>
-第二行费用文字</p>
-</blockquote>
-
-<h2 id="toc_15">行内代码</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>像这样即可：`&lt;addr&gt;` `code`
-</code></pre>
-
-<p><code>CMD + K</code> 可插入Markdown语法。<br/>
-效果如下：</p>
-
-<p>像这样即可：<code>&lt;addr&gt;</code> <code>code</code></p>
-
-<h2 id="toc_16">多行或者一段代码</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>```js
-function fancyAlert(arg) {
-    if(arg) {
-    $.facebox({div:&#39;#foo&#39;})
-    }
-
-}
-```
-</code></pre>
-
-<p><code>CMD + Shift + K</code> 可插入Markdown语法。<br/>
-效果如下：</p>
-
-<pre><code class="language-js">function fancyAlert(arg) {
-    if(arg) {
-    $.facebox({div:&#39;#foo&#39;})
-    }
-
-}
-</code></pre>
-
-<h2 id="toc_17">顺序图或流程图</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>```sequence
-张三-&gt;李四: 嘿，小四儿, 写博客了没?
-Note right of 李四: 李四愣了一下，说：
-李四--&gt;张三: 忙得吐血，哪有时间写。
-```
-
-```flow
-st=&gt;start: 开始
-e=&gt;end: 结束
-op=&gt;operation: 我的操作
-cond=&gt;condition: 确认？
-
-st-&gt;op-&gt;cond
-cond(yes)-&gt;e
-cond(no)-&gt;op
-```
-</code></pre>
-
-<p>效果如下（ <code>Preferences</code> - <code>Themes</code> - <code>Enable sequence &amp; flow chart</code> 才会看到效果 ）：</p>
-
-<pre><code class="language-sequence">张三-&gt;李四: 嘿，小四儿, 写博客了没?
-Note right of 李四: 李四愣了一下，说：
-李四--&gt;张三: 忙得吐血，哪有时间写。
-</code></pre>
-
-<pre><code class="language-flow">st=&gt;start: 开始
-e=&gt;end: 结束
-op=&gt;operation: 我的操作
-cond=&gt;condition: 确认？
-
-st-&gt;op-&gt;cond
-cond(yes)-&gt;e
-cond(no)-&gt;op
-</code></pre>
-
-<p>更多请参考：<a href="http://bramp.github.io/js-sequence-diagrams/">http://bramp.github.io/js-sequence-diagrams/</a>, <a href="http://adrai.github.io/flowchart.js/">http://adrai.github.io/flowchart.js/</a></p>
-
-<h2 id="toc_18">表格</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>第一格表头 | 第二格表头
---------- | -------------
-内容单元格 第一列第一格 | 内容单元格第二列第一格
-内容单元格 第一列第二格 多加文字 | 内容单元格第二列第二格
-</code></pre>
-
-<p>效果如下：</p>
-
-<table>
-<thead>
-<tr>
-<th>第一格表头</th>
-<th>第二格表头</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>内容单元格 第一列第一格</td>
-<td>内容单元格第二列第一格</td>
-</tr>
-<tr>
-<td>内容单元格 第一列第二格 多加文字</td>
-<td>内容单元格第二列第二格</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="toc_19">删除线</h2>
-
-<p>Markdown 语法：</p>
-
-<p>加删除线像这样用： <del>删除这些</del></p>
-
-<p>效果如下：</p>
-
-<p>加删除线像这样用： <del>删除这些</del></p>
-
-<h2 id="toc_20">分隔线</h2>
-
-<p>以下三种方式都可以生成分隔线：</p>
-
-<pre><code>***
-
-*****
-
-- - -
-</code></pre>
-
-<p>效果如下：</p>
-
-<hr/>
-
-<hr/>
-
-<hr/>
-
-<h2 id="toc_21">MathJax</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>块级公式：
-$$  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
-
-\\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
-1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
-{1+\frac{e^{-8\pi}} {1+\ldots} } } } \\]
-
-行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
-</code></pre>
-
-<p>效果如下（<code>Preferences</code> - <code>Themes</code> - <code>Enable MathJax</code> 才会看到效果）：</p>
-
-<p>块级公式：<br/>
-\[  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]</p>
-
-<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br/>
-1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br/>
-{1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
-
-<p>行内公式： \(\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N\)</p>
-
-<h2 id="toc_22">脚注（Footnote）</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>这是一个脚注：[^sample_footnote]
-</code></pre>
-
-<p>效果如下：</p>
-
-<p>这是一个脚注：<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></p>
-
-<h2 id="toc_23">注释和阅读更多</h2>
-
-<!-- comment -->
-
-<!-- more -->
-
-<p>Actions-&gt;Insert Read More Comment <em>或者</em> <code>Command + .</code><br/>
-<strong>注</strong> 阅读更多的功能只用在生成网站或博客时，插入时注意要后空一行。</p>
-
-<h2 id="toc_24">TOC</h2>
-
-<p>Markdown 语法：</p>
-
-<pre><code>[TOC]
-</code></pre>
-
-<p>效果如下：</p>
-
-<ul>
-<li>
-<a href="#toc_0">Markdown 的设计哲学</a>
-</li>
-<li>
-<a href="#toc_1">本文约定</a>
-</li>
-<li>
-<a href="#toc_2">标题</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_3">第一级标题 <code>&lt;h1&gt;</code></a>
-<ul>
-<li>
-<a href="#toc_4">第二级标题 <code>&lt;h2&gt;</code></a>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<a href="#toc_5">第六级标题 <code>&lt;h6&gt;</code></a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_6">强调</a>
-</li>
-<li>
-<a href="#toc_7">换行</a>
-</li>
-<li>
-<a href="#toc_8">列表</a>
-<ul>
-<li>
-<a href="#toc_9">无序列表</a>
-</li>
-<li>
-<a href="#toc_10">有序列表</a>
-</li>
-<li>
-<a href="#toc_11">任务列表（Task lists）</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_12">图片</a>
-</li>
-<li>
-<a href="#toc_13">链接</a>
-</li>
-<li>
-<a href="#toc_14">区块引用</a>
-</li>
-<li>
-<a href="#toc_15">行内代码</a>
-</li>
-<li>
-<a href="#toc_16">多行或者一段代码</a>
-</li>
-<li>
-<a href="#toc_17">顺序图或流程图</a>
-</li>
-<li>
-<a href="#toc_18">表格</a>
-</li>
-<li>
-<a href="#toc_19">删除线</a>
-</li>
-<li>
-<a href="#toc_20">分隔线</a>
-</li>
-<li>
-<a href="#toc_21">MathJax</a>
-</li>
-<li>
-<a href="#toc_22">脚注（Footnote）</a>
-</li>
-<li>
-<a href="#toc_23">注释和阅读更多</a>
-</li>
-<li>
-<a href="#toc_24">TOC</a>
-</li>
-</ul>
-
-
-<div class="footnotes">
-<hr/>
-<ol>
-
-<li id="fn1">
-<p>这里是脚注信息&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
-</li>
-
-</ol>
-</div>
-
-
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2017/2/22</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='usemyself.html'>自己留用</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                      
+                        &nbsp;<a  class="ds-thread-count" data-thread-key="14877789972082.html" data-count-type="comments" href="14877789972082.html#ds-thread"></a>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+              
+
+
+			<div class="row">
+			  <div class="large-6 columns">
+			  <p class="text-left" style="padding-top:25px;">
+			   <a href="all.html">&laquo; Prev Page</a>  
+			  </p>
+			  </div>
+			  <div class="large-6 columns">
+			<p class="text-right" style="padding-top:25px;">
+			
+			</p>
+			  </div>
+			</div>
 		</div>
-	
+	</div><!-- large 8 -->
 
- 
-	
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <div class="site-a-logo"><img src="http://7xlwyk.com1.z0.glb.clouddn.com/avatar.png" /></div>
+            
+                <h1>一个大妈的博客</h1>
+                <div class="site-des">专注电气技术、plc、单片机、工业机器人、工业4.0技术</div>
+                <div class="social">
 
-  
-  
-</div></div>
 
 
-<div class="page-bottom">
+<a target="_blank" class="linkedin" href="http://v2.ta.qq.com/summary/index#!0-0" title="LinkedIn">LinkedIn</a>
+
+<a target="_blank" class="quora" href="http://www.qiniu.com" title="Quora">Quora</a>
+
+
+
+
+<a target="_blank" class="email" href="mailto:guotaodage@qq.com" title="Email">Email</a>
+  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
+                
+              	 </div>
+          	</div>
+
+             
+
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="plc.html"><strong>PLC技术</strong></a>
+        
+            <a href="workdoc.html"><strong>工作文档</strong></a>
+        
+            <a href="diary.html"><strong>生活日记</strong></a>
+        
+            <a href="robot.html"><strong>工业机器人</strong></a>
+        
+            <a href="usemyself.html"><strong>自己留用</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="14880312488070.html">工业机器人实训室注意事项</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878277166619.html">现代电气控制技术分中心视频宣传解说词</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878151259617.html">中国科学技术馆一日游</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878148547445.html">S7-1200PLC教材知识点汇总</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14878137214088.html">海缸新入蓝吊一条</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
   <div class="row">
-  <hr />
-  <div class="small-9 columns">
-  <p class="copyright">Copyright &copy; 2015
+   <p class="copyright">Copyright &copy; 2015
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
 Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
-  </div>
-  <div class="small-3 columns">
-  <p class="copyright text-right"><a href="#header">TOP</a></p>
-  </div>
-   
   </div>
 </div>
 
         </section>
       </div>
     </div>
+
+  
+
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:'gt8999'};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
     
-    
+
     <script src="asset/js/foundation.min.js"></script>
-    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
     <script>
       $(document).foundation();
-
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
      
     </script>
+
     <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=60794227" charset="UTF-8"></script>
+
   </body>
 </html>
